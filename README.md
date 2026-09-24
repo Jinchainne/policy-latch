@@ -2,7 +2,7 @@
 
 > A reusable GenLayer Intelligent Contract primitive for policy-bound semantic decisions.
 
-[![Contract](https://img.shields.io/badge/GenLayer-StudioNet-4e9364)](https://genlayer-explorer.vercel.app/address/0x39550E512759E0aE9C5f4fbfF500BE1678afBF4C) [![Source](https://img.shields.io/badge/source-Python-3776AB)](contracts/policy_latch.py) [![License](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
+[![Contract](https://img.shields.io/badge/GenLayer-StudioNet-4e9364)](https://explorer-studio.genlayer.com/address/0x39550E512759E0aE9C5f4fbfF500BE1678afBF4C) [![Source](https://img.shields.io/badge/source-Python-3776AB)](contracts/policy_latch.py) [![License](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
 
 ## Intelligent Contract
 
@@ -32,7 +32,7 @@ sequenceDiagram
 | Malformed model output fails closed | Exact result schema validation |
 | Final state is not replayed | `ACCEPTED` policies reject another evaluation |
 
-Deployed on StudioNet: [`0x39550E512759E0aE9C5f4fbfF500BE1678afBF4C`](https://genlayer-explorer.vercel.app/address/0x39550E512759E0aE9C5f4fbfF500BE1678afBF4C). Transaction: [`0x68e14a6928fede00aacb5f35110057e55aad07c15f9997543a1ff2fd45dfaad8`](https://genlayer-explorer.vercel.app/tx/0x68e14a6928fede00aacb5f35110057e55aad07c15f9997543a1ff2fd45dfaad8).
+Deployed on StudioNet: [`0x39550E512759E0aE9C5f4fbfF500BE1678afBF4C`](https://explorer-studio.genlayer.com/address/0x39550E512759E0aE9C5f4fbfF500BE1678afBF4C). Transaction: [`0x68e14a6928fede00aacb5f35110057e55aad07c15f9997543a1ff2fd45dfaad8`](https://explorer-studio.genlayer.com/tx/0x68e14a6928fede00aacb5f35110057e55aad07c15f9997543a1ff2fd45dfaad8).
 
 ### Why GenLayer
 
