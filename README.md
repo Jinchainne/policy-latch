@@ -4,6 +4,8 @@
 
 PolicyLatch is a reusable GenLayer primitive that snapshots a policy and turns independently fetched evidence into a consensus-backed `PASS`, `FAIL`, or `INDETERMINATE` decision. Validators compare the complete typed result and the SHA-256 digest of the evidence they independently fetched.
 
+Deployed on StudioNet: [`0x39550E512759E0aE9C5f4fbfF500BE1678afBF4C`](https://genlayer-explorer.vercel.app/address/0x39550E512759E0aE9C5f4fbfF500BE1678afBF4C). Transaction: [`0x68e14a6928fede00aacb5f35110057e55aad07c15f9997543a1ff2fd45dfaad8`](https://genlayer-explorer.vercel.app/tx/0x68e14a6928fede00aacb5f35110057e55aad07c15f9997543a1ff2fd45dfaad8).
+
 ### Why GenLayer
 
 `gl.nondet.web.render` and `gl.nondet.exec_prompt` handle evidence retrieval and semantic evaluation. `gl.vm.run_nondet_unsafe` rejects divergent decisions, reasoning, and evidence digests before state is finalized. Deterministic code owns policy snapshotting, schema validation, and one-time finalization.

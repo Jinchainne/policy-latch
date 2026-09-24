@@ -1,0 +1,9 @@
+{
+  "network": "studionet",
+  "chainId": 61999,
+  "contract": "PolicyLatch",
+  "address": "0x39550E512759E0aE9C5f4fbfF500BE1678afBF4C",
+  "deploymentTransaction": "0x68e14a6928fede00aacb5f35110057e55aad07c15f9997543a1ff2fd45dfaad8",
+  "status": "ACCEPTED",
+  "consensusResult": "MAJORITY_AGREE"
+}
