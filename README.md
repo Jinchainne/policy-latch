@@ -21,4 +21,6 @@ PolicyLatch is a reusable GenLayer primitive that snapshots a policy and turns i
 python -m py_compile contracts/policy_latch.py
 ```
 
+See [architecture](docs/ARCHITECTURE.md) and [threat model](docs/THREAT_MODEL.md) for the security model and reviewer checklist.
+
 This repository is an Intelligent Contract primitive, not medical, legal, financial, or safety advice.
